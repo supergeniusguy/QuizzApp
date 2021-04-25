@@ -1,8 +1,8 @@
 {
-  "name": "my-planet",
+  "name": "ult-cdr-quiz",
   "version": "1.0.0",
   "description": "My laudable Nuxt.js project",
-  "author": "tribeck",
+  "author": "lolninja",
   "private": true,
   "scripts": {
     "dev": "nuxt",
