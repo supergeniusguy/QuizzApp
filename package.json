@@ -1,7 +1,7 @@
 {
   "name": "ult-cdr-quiz",
   "version": "1.0.0",
-  "description": "My laudable Nuxt.js project",
+  "description": "League of Legends Ult Cooldown Quiz",
   "author": "lolninja",
   "private": true,
   "scripts": {

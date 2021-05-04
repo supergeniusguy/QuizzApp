@@ -1,6 +1,7 @@
 
 export default {
   ssr: false,
+  target: 'static',
   /*
   ** Headers of the page
   */
@@ -51,7 +52,7 @@ export default {
     ]
   },
   router: {
-    base: '/question'
+    base: ''
   },
   /*
   ** Build configuration

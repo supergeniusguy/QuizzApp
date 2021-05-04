@@ -8,11 +8,9 @@
             </p>
             <p class="question" v-html="questionInfo.question"></p>
             <p>レベル：{{questionInfo.level}}</p>
-            <video preload="metadata" playsinline="true" autoplay="true" loop="true" muted="true" width="30%" height="30%">
-                <source v-bind:src="questionInfo.movie1" type="video/webm">
-                <source v-bind:src="questionInfo.movie2" type="video/mp4">
+            <video v-bind:src="questionInfo.movie1" preload="metadata" playsinline="true" autoplay="true" loop="true" muted="true" width="30%" height="30%">
             </video>
-            <p>読み込んだ動画：{{questionInfo.movie1}}</p>
+            <p>読み込んだ動画は：{{questionInfo.movie1}}</p>
         </div>
         <div class="contents">
             <ul class="choiceList">
